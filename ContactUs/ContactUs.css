@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .body {
+   
+  }
+  
+  
+  .right-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header {
+    font-size: 20px;
+    height: 100px;
+  }
+  
+  
+  
+  .icons-header {
+    gap: 20px;
+  }
+  
+  .after-header {
+    padding-top: 100px;
+  }
+  .card-deck {
+    display: flex;
+  }
+  
+  .card {
+    flex: 1;
+    border: 0;
+  }
+  
+  .card-img-top {
+    height: 100px;
+    width: 100%;
+  }
+  
+  .Branding-para {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  
