@@ -24,20 +24,12 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light header">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img
-              src="./img/Logo.svg"
-              style="
-                margin-top: 10px;
-                margin-left: 50px;
-                height: fit-content;
-                width: 50%;
-              "
-              alt=""
-            />
+            <img class="logo-img" src="./img/Logo.svg" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -76,31 +68,15 @@
         </div>
       </nav>
     </header>
+    <!-- Brand logo and line section -->
     <div class="row align-items-center after-header" style="width: 99.9%">
       <div class="col-6 Branding-para">
-        <h1
-          style="
-            margin-left: auto;
-            margin-right: auto;
-            width: 8em;
-            font-size: 4.5rem;
-            line-height: 5rem;
-            margin-bottom: 2rem;
-            font-family: 'Noto Sans TC', sans-serif;
-          "
-        >
+        <h1 class="Brand-line">
           Let's Give Your <br />
           Brand A New <br />
           <span style="color: #8c7851">Life.</span>
         </h1>
-        <h5
-          style="
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            color: #666461;
-            margin-left: 87px;
-          "
-        >
+        <h5 class="Brand-paragraph">
           Grafikaar is a visual branding and design studio. We provide designing
           services to brands to give them a new life.
         </h5>
@@ -116,26 +92,14 @@
       </h1>
     </div>
 
+    <!-- Services section -->
+
     <div class="row">
-      <div
-        class="col-12 col-md-8"
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding: 100px;
-        "
-      >
+      <div class="col-12 col-md-8 services-logo">
         <h2 style="font-family: 'Open Sans', sans-serif; font-weight: 900">
           Graphic Design
         </h2>
-        <p
-          style="
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            color: #666461;
-          "
-        >
+        <p class="services-logo-para">
           Graphic design optimizes your marketing efforts across all channels
           and is key to building a professional brand. Being consistent in your
           marketing collateral allows your brand to be easily recognizable and
@@ -161,25 +125,11 @@
           srcset=""
         />
       </div>
-      <div
-        class="col-12 col-md-8"
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding: 100px;
-        "
-      >
+      <div class="col-12 col-md-8 services-logo">
         <h2 style="font-family: 'Open Sans', sans-serif; font-weight: 900">
           3D Architectural
         </h2>
-        <p
-          style="
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            color: #666461;
-          "
-        >
+        <p class="services-logo-para">
           That always creates a gap between what the architect thinks and what
           the client sees in their mind. Using 3D renders makes this process
           much easier. The results are more life-like so clients can see what
@@ -188,26 +138,12 @@
         </p>
       </div>
     </div>
-    <div class="row" style="margin-bottom: 7em;">
-      <div
-        class="col-12 col-md-8"
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding: 100px;
-        "
-      >
+    <div class="row" style="margin-bottom: 7em">
+      <div class="col-12 col-md-8 services-logo">
         <h2 style="font-family: 'Open Sans', sans-serif; font-weight: 900">
           Motion Graphics & 2D Animations
         </h2>
-        <p
-          style="
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            color: #666461;
-          "
-        >
+        <p class="services-logo-para">
           Motion graphics are pieces of animation or digital footage which
           create the illusion of motion or rotation, and are usually combined
           with audio for use in multimedia projects.
@@ -222,52 +158,9 @@
         />
       </div>
     </div>
-
-    <!-- <div class="card-deck" style="margin: 100px 0 100px 0">
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="./img/price-tag.svg"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="./img/graphic-design.svg"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="./img/strategy.svg"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-        </div>
-      </div>
-    </div> -->
+  
+    <!-- carousel Section -->
+     
     <div
       id="carouselExampleCaptions"
       class="carousel slide"
@@ -337,6 +230,9 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+ 
+    <!-- Contact Us section -->
+
     <div class="card text-center">
       <div class="card-body" style="margin: 100px 0 100px 0">
         <h5
@@ -354,6 +250,8 @@
         <a href="#" class="btn">Let's Talk</a>
       </div>
     </div>
+
+    <!-- Footer -->
 
     <footer
       class="bg text-center text-lg-start"

@@ -1,11 +1,9 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 .body {
- 
 }
-
 
 .right-img {
   width: 95%;
@@ -16,8 +14,42 @@
   font-size: 20px;
   height: 100px;
 }
+.logo-img {
+  margin-top: 10px;
+  margin-left: 50px;
+  height: fit-content;
+  width: 50%;
+}
 
+.Brand-line {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  font-size: 4.5rem;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Noto Sans TC", sans-serif;
+}
 
+.Brand-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #666461;
+  margin-left: 87px;
+}
+
+.services-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+}
+
+.services-logo-para {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #666461;
+}
 
 .icons-header {
   gap: 20px;
@@ -26,26 +58,9 @@
 .after-header {
   padding-top: 100px;
 }
-.card-deck {
-  display: flex;
-}
-
-.card {
-  flex: 1;
-  border: 0;
-}
-
-.card-img-top {
-  height: 100px;
-  width: 100%;
-}
 
 .Branding-para {
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
-}
-
-.card-title {
-  text-align: center;
 }
