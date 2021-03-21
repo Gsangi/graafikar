@@ -93,6 +93,12 @@ body {
     display: none;
   }
 }
+
+.client-section {
+  padding-left: var(--global_padding);
+  padding-right: var(--global_padding);
+}
+
 /* 
 Hover */
 
@@ -130,9 +136,6 @@ Hover */
   width: 100%;
 }
 
-
-
-
 /***** Global Slide *****/
 .slide-right,
 .slide-left {
@@ -141,7 +144,7 @@ Hover */
 
 /***** Slide Right *****/
 .slide-right {
-  animation: 3s slide-right;
+  animation: 2s slide-right;
 }
 @keyframes slide-right {
   from {
@@ -154,7 +157,7 @@ Hover */
 
 /***** Slide Left *****/
 .slide-left {
-  animation: 3s slide-left;
+  animation: 2s slide-left;
 }
 @keyframes slide-left {
   from {
@@ -164,9 +167,6 @@ Hover */
     margin-left: 0%;
   }
 }
-
-
-
 
 /***** FadeIn Underline *****/
 

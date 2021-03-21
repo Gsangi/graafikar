@@ -1,0 +1,184 @@
+:root {
+    --global_padding: 60px;
+  }
+  
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  
+  .right-img {
+    width: 95%;
+    height: auto;
+  }
+  
+  .header {
+    font-size: 20px;
+    padding-left: var(--global_padding);
+    padding-right: var(--global_padding);
+  }
+  
+  .logo-img {
+    margin-top: 10px;
+    height: fit-content;
+    width: 200px;
+  }
+  
+  .Brand-line {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  
+  .Brand-paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #666461;
+  }
+  
+  .services-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+  }
+  
+  .services-logo-para {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #666461;
+  }
+  
+  .icons-header {
+    gap: 20px;
+  }
+  
+  .after-header {
+    padding-top: 100px;
+    padding-left: var(--global_padding);
+    padding-right: var(--global_padding);
+  }
+  
+  .row {
+    padding-left: var(--global_padding);
+    padding-right: var(--global_padding);
+  }
+  
+  .Branding-para {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    :root {
+      --global_padding: 20px;
+    }
+    .right-img {
+      width: 100%;
+      height: auto;
+    }
+    .services-logo {
+      padding: 20px var(--global_padding);
+    }
+  
+    .services-logo + div > img {
+      display: none;
+    }
+    [src="./img/3D Architectural.svg"] {
+      display: none;
+    }
+  }
+  
+  .client-section {
+    padding-left: var(--global_padding);
+    padding-right: var(--global_padding);
+  }
+  
+  /* 
+  Hover */
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0.7em;
+    }
+    /* .navbar {
+      padding: 60px;
+    } */
+    .navbar .navbar-brand {
+      padding: 0 0.7em;
+    }
+  }
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #8c7851;
+    color: transparent;
+    width: 0%;
+    content: "";
+    height: 3px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /***** Global Slide *****/
+  .slide-right,
+  .slide-left {
+    width: 100%;
+  }
+  
+  /***** Slide Right *****/
+  .slide-right {
+    animation: 2s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  /***** Slide Left *****/
+  .slide-left {
+    animation: 2s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  /***** FadeIn Underline *****/
+  
+  .fade-in {
+    animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
